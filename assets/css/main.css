@@ -84,8 +84,8 @@ input, select, textarea {
 	}
 
 	body {
-		background-image: url('images/fancy-cushion.jpg');
-		color: #5b5b5b;
+		background: #000;
+		color: white;
 		font-size: 15pt;
 		line-height: 1.85em;
 		font-family: 'Source Sans Pro', sans-serif;
