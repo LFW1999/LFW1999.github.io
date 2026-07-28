@@ -3145,15 +3145,15 @@ input, select, textarea {
 					.carousel article .image {
 						margin-bottom: 2em;
 					}
-		/* Carousel Headings */
-			.model-title {
-				cursor: pointer;
-				padding-left: 50px;
-				font-size: 22px;
-				font-weight: bold;
-				color: white;
-				border-bottom: 2px solid white;
-				padding-bottom: 10px;
-			}
 
 	}
+	/* Carousel Headings */
+		.model-title {
+			cursor: pointer;
+			padding-left: 50px;
+			font-size: 22px;
+			font-weight: bold;
+			color: white;
+			border-bottom: 2px solid white;
+			padding-bottom: 10px;
+		}
