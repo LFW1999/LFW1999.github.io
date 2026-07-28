@@ -11,7 +11,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
     <link rel="stylesheet" href="assets/css/main.css" />
     <noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
-	<script src="assets/js/stl_viewer.min.js"></script>
+	<script type="module" src="https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js"></script>
 </head>
 <body class="no-sidebar is-preload">
     <div id="page-wrapper">
@@ -60,12 +60,25 @@
 			</div>
 			<!-- STL Viewer -->
 			<div style="text-align: center;">
-				<article id="STL Projects" class="special">
-					<div style="text-align: center;">
-						<header><h2>Lower Teeth</h2></header>
-						<script src=https://embed.github.com/view/3d/LFW1999/LFW1999.github.io/main/assets/Teeth2.stl></script>
-					</div>
-				</article>
+				 <article id="STL Projects" class="special">
+        <div style="text-align: center;">
+
+            <header>
+                <h2>Lower Teeth</h2>
+            </header>
+
+            <model-viewer
+                src="assets/Teeth2.glb"
+                alt="3D model of Lower Teeth"
+                camera-controls
+                auto-rotate
+                shadow-intensity="1"
+                exposure="1"
+                style="width: 100%; max-width: 700px; height: 500px; margin: auto;">
+            </model-viewer>
+
+        </div>
+    </article>
 			<div class="row">
 							<article class="col-4 col-12-mobile special">
 									<script src=https://embed.github.com/view/3d/LFW1999/LFW1999.github.io/main/assets/Shaft.stl></script>>
